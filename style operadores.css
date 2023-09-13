@@ -1,0 +1,56 @@
+#contenedor{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+    #calculadora{
+        background: rgb(233, 245, 244);
+        width: 50%;
+        height: 100%;
+        float: left;
+}
+    
+    #detalle{
+        background: #014142;
+        width: 50%;
+        height: 100%;
+        float: left;
+        color: #f6f5f7;
+}
+
+    .contenido{
+        /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        overflow: hidden;
+        padding: 40px;
+ }
+ input {
+	width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #037690;
+}
+
+button {
+  font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #ebf5f7;
+	border: 1px solid #ebf5f7;
+	color: #035232;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
